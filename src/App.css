@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.star{
+  font-size: 80px;
+}
+
+.on{
+  color: rgb(47, 138, 237);
+}
+.off{
+  color: rgb(221, 190, 190);
+}
+.app{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc{
+text-align: center;
+  width: 400px;
+  height: 450px;
+  background-color: lightgrey;
+}
+
+input{
+  padding: 10px 30px;
+}
